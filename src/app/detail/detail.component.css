@@ -1,0 +1,16 @@
+.mainBox {
+  width: 100%;
+  height: 140vh;
+  /* border: 1px solid white; */
+  font-family: Helvetica;
+}
+
+.content {
+  padding-top: 4rem;
+  padding-left: 8rem;
+  color: white;
+}
+
+/* h6 {
+  color: white;
+} */

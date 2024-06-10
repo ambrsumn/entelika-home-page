@@ -1,0 +1,15 @@
+.mainPage {
+  height: 360vh;
+  width: 100%;
+  background-color: #010437;
+}
+
+.upperHalf {
+  height: 120vh;
+  width: 100%;
+
+  background-image: url("https://s3-alpha-sig.figma.com/img/737f/14e0/c1fd1a79f3e3370657ddefd9d1f901e8?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lC-f3ftmDEp7k65pJRu00K4yAfG7vC0~kFtgmLqDFC8cvKudO2jHwwO1KJFedkshgG2No5MfgQA56hogReCeUOPjP9L6Kj3V55uHXV0LXVi7UEQvJEqgCAGYhgQQXC8RS6G4eKL1BnLSTUoznWVfiiDASfe~g~4yP1DY4Few3RhX~Rxe1nGEZRcKoURVLXidNCIPuAd3OzUYwc4R8jSt0mTPwAEbg45vkpCJhNBzprDunZ2sT2b7eaRuQX-OdmB8WzecVXGXkpjToLTwVpP76ybMZjB1jygJJseFuqgwHulMyFpsQO5kkjAiDTz57t7YbTOXJiCS-GaN8vrAsJq8LA__");
+
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+}

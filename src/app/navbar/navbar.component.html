@@ -1,0 +1,42 @@
+<div class="main">
+  <img class="logo" src="../../assets/Entelika Logo.png" alt="Logo" />
+
+  <ul class="links">
+    <li>
+      <a
+        routerLink="/home"
+        [routerLinkActive]="'active'"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >HOME</a
+      >
+    </li>
+    <li>
+      <a
+        routerLink="/services"
+        [routerLinkActive]="'active'"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >SERVICES</a
+      >
+    </li>
+    <li>
+      <a routerLink="/login">CASE STUDIES</a>
+    </li>
+    <li>
+      <a
+        routerLink="/cart"
+        [routerLinkActive]="'active'"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >CLIENTS</a
+      >
+    </li>
+
+    <li>
+      <a
+        routerLink="/contact"
+        [routerLinkActive]="'active'"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >CONTACT</a
+      >
+    </li>
+  </ul>
+</div>

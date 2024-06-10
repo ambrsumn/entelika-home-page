@@ -1,0 +1,54 @@
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+.formContainer {
+  height: 70vh;
+  /* border: 1px solid white; */
+  margin-top: 3vh;
+
+  background-image: url("https://boundlessmaps.com/wp-content/uploads/maps/sdb/germersheim-20000-sdb-d6f883-preview-500x666.png");
+  background-repeat: no-repeat;
+  background-size: 100% 70vh;
+}
+
+.formBox {
+  /* border: 1px solid white; */
+  width: 25%;
+  height: fit-content;
+  position: absolute;
+  right: 8%;
+  background-color: white;
+  color: black;
+}
+/* .form {
+  background-color: white;
+  color: black;
+} */
+
+.inp {
+  width: 90%;
+  padding-left: 1rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  height: 2rem;
+  border-bottom: 1px solid black;
+  margin-top: 1rem;
+}
+
+.btn {
+  margin-top: 4rem;
+  position: relative;
+  width: fit-content;
+  height: 2rem;
+  left: 78%;
+  border: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+  cursor: pointer;
+}

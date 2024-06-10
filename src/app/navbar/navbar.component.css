@@ -1,0 +1,57 @@
+.main {
+  display: flex;
+  height: 4rem;
+  width: 100%;
+  padding-top: 1rem;
+  justify-content: space-around;
+  background-color: black;
+}
+.active {
+  color: #ffa351;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 3rem;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 3rem;
+}
+
+.links {
+  padding-top: 1.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  margin-left: 2rem;
+  color: white;
+  font-size: 1.1rem;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: white;
+}
+
+li:hover {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.optionBar {
+  height: 1.2rem;
+  width: 1.2rem;
+  padding-top: 1.5rem;
+}
+
+.optionBar:hover {
+  height: 1.3rem;
+  width: 1.3rem;
+  cursor: grab;
+}

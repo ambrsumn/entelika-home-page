@@ -1,0 +1,270 @@
+.mainpage {
+  height: 80rem;
+  width: 100%;
+}
+
+.mainBox {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+}
+
+.textArea {
+  position: absolute;
+  top: 17vh;
+  width: 50%;
+}
+
+.imageArea {
+  width: 50%;
+  position: absolute;
+  right: 0;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: white;
+  font-size: 4.5rem;
+}
+
+.text {
+  padding-left: 7rem;
+  padding-top: 2rem;
+}
+
+p {
+  font-family: Helvetica;
+  color: white;
+}
+
+.backgroundImage {
+  background-image: url("https://s3-alpha-sig.figma.com/img/c8dc/0b36/325127d8ccb155ec8256eaddae5d4902?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=menEkps1ianWQvQIbgL1oGNfvXlM~8svmkBZmUJdmVk917rwj49ySoPnVaovYI1izlO8w25ZkSNymiSj1OaT8xp4C9TfwvKa9B-AuzB34kitlXMbSo7NxRfWW~34sgoXEIIXh9yiG-abOeItclkeDyEtYMttrgSMzN1Gjo1lxA4qrAOXW1zFk-EgI1LroJLZeIh3P4~q8RM1S3ROv8ty1IJ~dNLZoMHrDQsee9~JWy60F8tS2k7WG7OeYN4wlOY~F6pF0y1C7tnZDku~7uhpRN3OvZ08em8n9aEb0Tu~K2pVwO-XfRpIMg6bBzOOdxVlow77qUhQQDuH13aj2cTAeg__");
+  background-repeat: no-repeat;
+  background-size: 50vw 45vh;
+  opacity: 80%;
+  height: 45vh;
+  width: 45vw;
+  position: absolute;
+  right: 0;
+  top: 14vh;
+}
+
+.arrowIcon {
+  display: flex;
+  position: absolute;
+  top: 27rem;
+  left: 27rem;
+}
+
+.mainImage {
+  height: 60vh;
+  width: 30vw;
+  border: 4px solid gray;
+  position: absolute;
+  right: 12%;
+  top: 6vh;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.scroll {
+  width: 100%;
+  overflow: hidden;
+}
+
+.LeftToRight {
+  animation: LeftToRight 20s infinite linear;
+}
+
+@keyframes LeftToRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(#ffffff 50%, #a588ff 59%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.moreButton {
+  margin-top: 2rem;
+  display: flex;
+  width: fit-content;
+}
+
+.btn {
+  border: 2px solid orange;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: orange;
+  background-color: transparent;
+}
+/* 
+.mainPage {
+  height: 100%;
+  width: 100%;
+}
+
+.mainBox {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textArea {
+  margin: 2rem 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.imageArea {
+  width: 100%;
+  position: relative;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-family: Helvetica;
+  color: white;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.text {
+  padding: 0 1rem;
+}
+
+p {
+  font-family: Helvetica;
+  color: white;
+}
+
+.backgroundImage {
+  background-image: url("https://s3-alpha-sig.figma.com/img/c8dc/0b36/325127d8ccb155ec8256eaddae5d4902?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=menEkps1ianWQvQIbgL1oGNfvXlM~8svmkBZmUJdmVk917rwj49ySoPnVaovYI1izlO8w25ZkSNymiSj1OaT8xp4C9TfwvKa9B-AuzB34kitlXMbSo7NxRfWW~34sgoXEIIXh9yiG-abOeItclkeDyEtYMttrgSMzN1Gjo1lxA4qrAOXW1zFk-EgI1LroJLZeIh3P4~q8RM1S3ROv8ty1IJ~dNLZoMHrDQsee9~JWy60F8tS2k7WG7OeYN4wlOY~F6pF0y1C7tnZDku~7uhpRN3OvZ08em8n9aEb0Tu~K2pVwO-XfRpIMg6bBzOOdxVlow77qUhQQDuH13aj2cTAeg__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 80%;
+  height: 20vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.arrowIcon {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.mainImage {
+  height: 60vh;
+  width: 90%;
+  margin: auto;
+  border: 4px solid gray;
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.scroll {
+  width: 100%;
+  overflow: hidden;
+}
+
+.LeftToRight {
+  animation: LeftToRight 20s infinite linear;
+}
+
+@keyframes LeftToRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(#ffffff 50%, #a588ff 59%);
+  -webkit-background-clip: text;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.moreButton {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn {
+  border: 2px solid orange;
+  padding: 0.5rem 2rem;
+  color: orange;
+  background-color: transparent;
+}
+
+/* Responsive Styles */
+/* @media (min-width: 768px) {
+  .mainBox {
+    flex-direction: row;
+    height: 80vh;
+  }
+
+  .textArea {
+    width: 50%;
+    text-align: left;
+    margin: 0;
+  }
+
+  .imageArea {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .text {
+    padding-left: 7rem;
+    padding-top: 2rem;
+  }
+
+  .backgroundImage {
+    height: 45vh;
+    width: 45vw;
+  }
+
+  .mainImage {
+    width: 30vw;
+  }
+
+  .arrowIcon {
+    position: absolute;
+    top: 27rem;
+    left: 27rem;
+  }
+
+  .container {
+    width: 60%;
+  } */
+/* }  */
